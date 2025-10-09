@@ -25,22 +25,22 @@ const webstack = {
       ],
     },
     {
-      text: 'HTML', link: '4.HTML.md'
+      text: 'HTML', link: '4.HTML&CSS/1.HTML.md'
     },
 
     {
-      text: 'CSS', link: '5.CSS.md'
+      text: 'CSS', link: '4.HTML&CSS/2.CSS.md'
     },
 
     {
-      text: 'JavaScript', link: '6.JavaScript.md'
+      text: 'JavaScript', link: '5.JavaScript/1.JavaScript.md'
     },
     {
-      text: 'TypeScript', link: '7.TypeScript.md'
+      text: 'TypeScript', link: '6.TypeScript/1.TypeScript.md'
     },
 
     {
-      text: 'Dart', link: '8.Dart.md'
+      text: 'Dart', link: '7.Dart/1.Dart.md'
     },
   ]
 }

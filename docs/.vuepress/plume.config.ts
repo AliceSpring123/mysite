@@ -34,7 +34,7 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
   footer: {
-    message: '公安网备xxxx | Eric Miller | Released under the MIT License.',
+    message: '豫ICP备2024103624号 | Eric Miller | Released under the MIT License.',
     copyright: 'Copyright © 2024 Eric Miller',
   },
 

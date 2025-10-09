@@ -30,11 +30,6 @@ config:
         title: 善于反思
         icon: 📝
         details: 量变是质变的必要准备，质变是量变的必然结果。
-
-      -
-        title: 不怕犯错
-        icon: 👨‍💻
-        details: 失败是检验真理、推动认识深化的强大动力。
       -
         title: 永不自满
         icon: 📖

@@ -17,7 +17,7 @@ export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
   title: 'Eric的知识库',
-  description: '千里之行, 始于足下',
+  description: '千里智行, 始于足下',
 
   head: [
     // 配置站点图标
