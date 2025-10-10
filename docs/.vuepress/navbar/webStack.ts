@@ -33,7 +33,7 @@ const webstack = {
     },
 
     {
-      text: 'JavaScript', link: '5.JavaScript/1.JavaScript.md'
+      text: 'JavaScript', link: '5.JavaScript/1.基础-语法和数据类型.md'
     },
     {
       text: 'TypeScript', link: '6.TypeScript/1.TypeScript.md'
