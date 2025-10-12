@@ -3,23 +3,20 @@ const toolsDeploy = {
   prefix: '/notes/toolsDeploy/',
   items: [
     {
-      text: 'Linux', link: '1.Linux/1.Linux基础知识.md'
+      text: 'Linux', link: '4.Linux/1.Linux基础知识.md'
     },
     {
-      text: 'Docker', link: '2.Docker/1.Docker.md'
+      text: 'Markdown', link: '1.Markdown.md'
     },
     {
-      text: 'Markdown', link: '4.Markdown.md'
+      text: 'Shell', link: '2.Shell脚本.md'
     },
     {
-      text: 'Shell', link: '5.Shell脚本.md'
-    },
-    {
-      text: 'Vim', link: '6.Vim.md'
+      text: 'Vim', link: '3.Vim.md'
     },
     {
       text: '环境搭建',
-      prefix: '3.环境搭建',
+      prefix: '5.环境搭建',
       items: [
         { text: '数据分析环境搭建', link: '1.数据分析环境搭建.md' },
         { text: 'Python虚拟环境', link: '2.Python虚拟环境.md' },
@@ -28,6 +25,14 @@ const toolsDeploy = {
         { text: 'win10终端代理', link: '5.win10终端设置代理.md' },
       ],
     },
+        {
+      text: 'CI&CD',
+      prefix: '6.CI&CD',
+      items: [
+        { text: 'Github Actions', link: '1.Github Actions实现自动化部署.md' },
+      ],
+    },
+
   ]
 }
 

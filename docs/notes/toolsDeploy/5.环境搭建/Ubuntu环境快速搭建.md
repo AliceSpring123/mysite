@@ -1,7 +1,7 @@
 ---
 title: Ubuntu环境快速搭建
 createTime: 2025/10/02 16:51:17
-permalink: /toolsDeploy/lt0r1bq6/
+permalink: /toolsDeploy/kc6ni8d2/
 ---
 
 
