@@ -15,7 +15,7 @@ jobs:
     - name: Setup Node.js (如果是静态站点生成器)
       uses: actions/setup-node@v4
       with:
-        node-version: '18'
+        node-version: '22'
         cache: 'npm'
         
     - name: Install dependencies and build
@@ -32,7 +32,7 @@ jobs:
         source: "docs/.vuepress/dist/*"
         target: "/var/www/myblog/"
         
-    - name: Restart service (如果需要)
+    - name: Restart service
       uses: appleboy/ssh-action@v1.0.3
       with:
         host: ${{ secrets.SERVER_HOST }}
