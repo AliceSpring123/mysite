@@ -26,9 +26,6 @@ config:
         title: Python Web
         icon: 💻
         details: Django Rest Framework , Vue , Restful API , ...
-
-
-                 
       -
         title: Python 数据分析
         icon: 📝
