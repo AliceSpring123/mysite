@@ -12,7 +12,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
       
-    - name: Setup Node.js (如果是静态站点生成器)
+    - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '22'
@@ -29,7 +29,7 @@ jobs:
         host: ${{ secrets.SERVER_HOST }}
         username: ${{ secrets.SERVER_USERNAME }}
         key: ${{ secrets.SERVER_SSH_KEY }}
-        source: "docs/.vuepress/dist/*"
+        source: "/docs/.vuepress/dist/*"
         target: "/var/www/myblog/"
         
     - name: Restart service
