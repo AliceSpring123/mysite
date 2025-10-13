@@ -23,17 +23,20 @@ config:
     type: features
     features:
       -
-        title: 勇于实践
+        title: Python Web
         icon: 💻
-        details: 一切真知都来源于实践。书本知识是前人实践的总结，但你要真正理解它，往往也需要结合自身的实践。
+        details: Django Rest Framework , Vue , Restful API , ...
+
+
+                 
       -
-        title: 善于反思
+        title: Python 数据分析
         icon: 📝
-        details: 量变是质变的必要准备，质变是量变的必然结果。
+        details: Numpy , Pandas , Matplotlib , Seaborn , MySQL , ...
       -
-        title: 永不自满
+        title: 人工智能(当前学习目标)
         icon: 📖
-        details: 知识需要不断更新迭代。终身学习和持续改进是符合客观规律的行为。
+        details: Pytorch , ...
 
 ---
 
