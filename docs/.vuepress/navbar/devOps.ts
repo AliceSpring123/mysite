@@ -3,7 +3,7 @@ const devops = {
   prefix: '/notes/devOps/',
   items: [
     {
-      text: '代理', link: '1.简述代理.md'
+      text: '代理', link: '1.基础理论/1.简述代理.md'
     },
     {
       text: 'Nginx', link: '2.Nginx/1.安装.md'
