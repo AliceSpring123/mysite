@@ -25,11 +25,11 @@ const webstack = {
       ],
     },
     {
-      text: 'HTML', link: '4.HTML&CSS/1.HTML.md'
+      text: 'HTML', link: '4.HTML&CSS/1.HTML-基本结构.md'
     },
 
     {
-      text: 'CSS', link: '4.HTML&CSS/2.CSS.md'
+      text: 'CSS', link: '4.HTML&CSS/6.CSS简介.md'
     },
 
     {
