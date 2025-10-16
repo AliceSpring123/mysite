@@ -14,15 +14,15 @@ const framework =
       ],
     },
 
-    {
-      text: '客户端框架',
-      prefix: '2.客户端框架',
-      items: [
-        { text: 'Vue', link: '1.Vue.md' },
-        { text: 'React', link: '2.React.md' },
-        { text: 'Flutter', link: '3.Flutter.md' },
-      ]
-    },
+    // {
+    //   text: '客户端框架',
+    //   prefix: '2.客户端框架',
+    //   items: [
+    //     { text: 'Vue', link: '1.Vue.md' },
+    //     { text: 'React', link: '2.React.md' },
+    //     { text: 'Flutter', link: '3.Flutter.md' },
+    //   ]
+    // },
     {
       text: '人工智能',
       prefix: '3.人工智能',
@@ -34,7 +34,7 @@ const framework =
       text: '项目',
       prefix: '4.项目',
       items: [
-        { text: '青铜-网上商城', link: '1.青铜-网上商城.md' },
+        { text: '木溪商城', link: '1.木溪商城.md' },
       ]
     },
   ]

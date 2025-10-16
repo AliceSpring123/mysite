@@ -1,47 +1,34 @@
 const webstack = {
-  text: 'Web技术栈',
+  text: 'Web基础',
   prefix: '/notes/webStack/',
   items: [
+    {
+      text: 'HTML', link: '1.HTML&CSS/1.HTML-基本结构.md'
+    },
 
     {
-      text: 'API设计',
-      prefix: '1.API设计',
+      text: 'CSS', link: '1.HTML&CSS/6.CSS简介.md'
+    },
+
+    {
+      text: 'JavaScript', link: '2.JavaScript/1.基础-语法和数据类型.md'
+    },
+
+
+    {
+      text: '项目案例',
+      prefix: '5.项目案例',
       items: [
-        { text: 'RestfulAPI', link: '1.RestfulAPI.md' },
+        { text: '小米商城', link: '1.小米商城.md' },
       ],
     },
-    {
-      text: '认证与权限',
-      prefix: '2.认证与权限',
-      items: [
-        { text: 'Json Web Token', link: '1.JWT.md' },
-      ],
-    },
-    {
-      text: 'Web基础设施',
-      prefix: '3.Web基础设施',
-      items: [
-        { text: 'HTTP协议', link: '1.HTTP协议.md' },
-      ],
-    },
-    {
-      text: 'HTML', link: '4.HTML&CSS/1.HTML-基本结构.md'
-    },
 
-    {
-      text: 'CSS', link: '4.HTML&CSS/6.CSS简介.md'
-    },
-
-    {
-      text: 'JavaScript', link: '5.JavaScript/1.基础-语法和数据类型.md'
-    },
-    {
-      text: 'TypeScript', link: '6.TypeScript/1.TypeScript.md'
-    },
-
-    {
-      text: 'Dart', link: '7.Dart/1.Dart.md'
-    },
+    // {
+    //   text: 'TypeScript', link: '3.TypeScript/1.TypeScript.md'
+    // },
+    // {
+    //   text: 'Dart', link: '4.Dart/1.Dart.md'
+    // },
   ]
 }
 
