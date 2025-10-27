@@ -127,6 +127,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
   min-height: 1226px;
+  background-color: #e6e6e6;
 }
 
 /* 6. 标题重置 */

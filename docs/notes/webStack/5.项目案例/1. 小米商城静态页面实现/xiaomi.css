@@ -1,0 +1,69 @@
+.xiaomi-card {
+  height: 300px;
+  background-color: #fff;
+  width: 234px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 30px;
+  transition: all .3s linear;
+}
+
+.xiaomi-card:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+  transform: translate3d(0, -2px, 0);
+  z-index: 2;
+}
+
+.xiaomi-card a {
+  display: block;
+  padding: 20px 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+
+
+.xiaomi-card .figure-img {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 18px;
+}
+
+.xiaomi-card .card-info {
+  width: 100%;
+
+}
+
+.xiaomi-card .card-info .title {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+}
+
+.xiaomi-card .card-info .desc {
+  font-size: 12px;
+  color: #b0b0b0;
+  height: 18px;
+  margin: 0 10px 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.xiaomi-card .card-info .price {
+  font-size: 14px;
+  text-align: center;
+  color: #ff6700;
+}
+
+.xiaomi-card .card-info .price span {
+  text-align: center;
+  color: #ff6700;
+}
+
+.xiaomi-card .card-info .price del {
+  margin-left: .5em;
+  color: #b0b0b0;
+}
